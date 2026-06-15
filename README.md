@@ -13,11 +13,11 @@ A proposta do projeto é representar situações que podem ocorrer em uma estaç
 
 O sistema possui um menu interativo que permite ao usuário:
 
-* Iniciar uma nova sessão de recarga;
-* Consultar as sessões cadastradas;
-* Finalizar uma sessão de recarga;
-* Gerar relatórios gerais do sistema;
-* Encerrar a execução do programa.
+* Iniciar uma nova sessão de recarga
+* Consultar as sessões cadastradas
+* Finalizar uma sessão de recarga
+* Gerar relatórios gerais do sistema
+* Encerrar a execução do programa
 
 Além disso, o sistema realiza automaticamente o controle da potência utilizada, calcula o valor da recarga e simula a comunicação com uma plataforma externa.
 
@@ -29,17 +29,17 @@ Para organizar os dados foi utilizada uma estrutura chamada `Sessao`, responsáv
 
 Nessa estrutura são armazenados dados como:
 
-* Identificação da sessão;
-* Nome do cliente;
-* Veículo cadastrado;
-* Tipo de recarga;
-* Nível atual da bateria;
-* Nível desejado da bateria;
-* Potência utilizada;
-* Energia consumida;
-* Valor calculado da recarga;
-* Horário da sessão;
-* Status da recarga.
+* Identificação da sessão
+* Nome do cliente
+* Veículo cadastrado
+* Tipo de recarga
+* Nível atual da bateria
+* Nível desejado da bateria
+* Potência utilizada
+* Energia consumida
+* Valor calculado da recarga
+* Horário da sessão
+* Status da recarga
 
 As sessões são armazenadas em um vetor de estruturas, permitindo que várias recargas sejam gerenciadas simultaneamente.
 
@@ -67,9 +67,9 @@ O cálculo do valor da recarga é realizado de forma dinâmica.
 
 O sistema considera diferentes fatores para definir a tarifa aplicada, como:
 
-* Horário da recarga;
-* Tipo de recarga escolhido;
-* Demanda atual de energia.
+* Horário da recarga
+* Tipo de recarga escolhido
+* Demanda atual de energia
 
 Com isso, o valor final da recarga pode variar de acordo com as condições de utilização do sistema, simulando um modelo de cobrança mais próximo da realidade.
 
@@ -104,11 +104,11 @@ O sistema possui uma funcionalidade de geração de relatórios que apresenta in
 
 Entre os dados exibidos estão:
 
-* Quantidade total de sessões;
-* Número de sessões ativas;
-* Energia total consumida;
-* Valor total arrecadado;
-* Potência total em utilização.
+* Quantidade total de sessões
+* Número de sessões ativas
+* Energia total consumida
+* Valor total arrecadado
+* Potência total em utilização
 
 Essas informações permitem acompanhar o desempenho geral da estação e monitorar o uso dos recursos disponíveis.
 
@@ -118,12 +118,12 @@ Essas informações permitem acompanhar o desempenho geral da estação e monito
 
 Durante o desenvolvimento do projeto foram utilizados diversos conceitos da linguagem C, incluindo:
 
-* Estruturas (`struct`);
-* Vetores;
-* Funções;
-* Estruturas de decisão (`if` e `switch`);
-* Estruturas de repetição (`for`);
-* Manipulação de dados;
-* Modularização do código;
-* Simulação de processos reais;
-* Controle de múltiplas sessões em memória.
+* Estruturas (`struct`)
+* Vetores
+* Funções
+* Estruturas de decisão (`if` e `switch`)
+* Estruturas de repetição (`for`)
+* Manipulação de dados
+* Modularização do código
+* Simulação de processos reais
+* Controle de múltiplas sessões em memória
